@@ -24,10 +24,6 @@ body {
     border: 1px solid white;
 }
 
-.card-image {
-	/* padding: 5px; */
-}
-
 .card-image img {
 	border-radius: 7px;
 	width: 240px;
@@ -43,10 +39,6 @@ body {
 
 .content h2{
 	font-size: 34px;
-}
-
-.button {
-	/* text-align: center; */
 }
 
 .button button {
