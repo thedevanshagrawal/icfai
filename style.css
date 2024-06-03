@@ -10,6 +10,13 @@ body {
 	color: white;
 }
 
+.image {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-bottom: 15px;
+}
+
 .header {
 	text-align: center;
 	color: white;
