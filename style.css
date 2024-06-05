@@ -20,13 +20,26 @@ header {
 	height: 116px;
 }
 
+.header {
+	padding-left: 10px;
+}
+
+.image {
+	display: flex;
+}
+
 .image img {
 	height: 100px;
 }
 
-.header {
-	text-align: center;
+.login-button {
+	padding: 10px;
+	border-radius: 10px;
+	background-color: chocolate;
 	color: white;
+	border: none;
+	margin: 10px;
+	font-size: 15px;
 }
 
 h3 {
