@@ -5,14 +5,14 @@
 }
 
 body {
-	background-color: rgb(0, 0, 33);
+	background-color: #277b87ab;
 	color: white;
 	font-family: 'Poppins', sans-serif;
 	scroll-behavior: smooth;
 }
 
 header {
-	background-color: rgb(18, 18, 62);
+	background-color: #09343e;
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
@@ -46,15 +46,16 @@ h3 {
 	text-align: center;
 	font-size: 30px;
 	padding: 20px 240px;
+	color: #09343e;
 }
 
 .card {
-	background-color: black;
+	background-color: #d0e5eba8;
 	width: 240px;
 	border-radius: 7px;
-	padding: 0 0 78px 0;
+	padding: 0px 0 78px 0;
 	margin: 10px;
-	border: 1px solid white;
+	border: 4px solid #09343e;
 }
 
 .card-image img {
@@ -75,12 +76,13 @@ h3 {
 
 .content h2 {
 	font-size: 34px;
+	color: #107e7e;
 }
 
 .button button {
 	padding: 16px 25px;
 	border-radius: 15px;
-	background-color: rgb(216, 236, 253);
+	background-color: rgb(9 52 62);
 	color: rgb(14, 150, 234);
 	margin: 7px 12px;
 	border: none;
@@ -91,11 +93,11 @@ h3 {
 
 .button a {
 	text-decoration: none;
-	color: rgb(14, 150, 234);
+	color: rgb(246 247 247);
 }
 
 .button button:hover {
-	background-color: rgb(194, 225, 246);
+	background-color: rgb(66 97 118);
 	color: rgb(10, 136, 214);
 }
 
@@ -106,25 +108,27 @@ h3 {
 }
 
 .notes {
-	background-color: brown;
+	background-color: #3d5453;
 	min-width: 12rem;
 	text-align: center;
 	padding: 10px;
+	border-radius: 16px;
 	font-size: 30px;
+	border: 1px solid white;
 }
 
-.notes a{
+.notes a {
 	color: white;
 	text-decoration: none;
 }
 
-.notesContent{
+.notesContent {
 	display: flex;
 	justify-content: center;
 	margin: 10px;
 }
 
-.notesContainer{
+.notesContainer {
 	display: flex;
 	flex-direction: column;
 }
