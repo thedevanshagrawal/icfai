@@ -105,6 +105,30 @@ h3 {
 	align-items: center;
 }
 
+.notes {
+	background-color: brown;
+	min-width: 12rem;
+	text-align: center;
+	padding: 10px;
+	font-size: 30px;
+}
+
+.notes a{
+	color: white;
+	text-decoration: none;
+}
+
+.notesContent{
+	display: flex;
+	justify-content: center;
+	margin: 10px;
+}
+
+.notesContainer{
+	display: flex;
+	flex-direction: column;
+}
+
 @media screen and (max-width: 800px) {
 
 	header {
